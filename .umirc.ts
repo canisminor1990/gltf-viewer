@@ -7,6 +7,7 @@ export default defineConfig({
   define: {
     'process.env': process.env,
   },
+  mfsu: false,
   extraBabelPlugins: [
     [
       'babel-plugin-styled-components',

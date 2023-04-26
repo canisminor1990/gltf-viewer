@@ -28,13 +28,13 @@
 
 You can use Gitpod for online development:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/canisminor1990/canisminor-template)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/canisminor1990/gltf-viewer)
 
 Or clone it for local development:
 
 ```bash
-$ git clone https://github.com/canisminor1990/canisminor-template.git
-$ cd canisminor-template
+$ git clone https://github.com/canisminor1990/gltf-viewer.git
+$ cd gltf-viewer
 $ npm install
 $ npm start
 ```
@@ -57,40 +57,40 @@ $ npm start
 
 <!-- release -->
 
-[release-shield]: https://img.shields.io/github/v/release/canisminor1990/canisminor-template?style=flat&sort=semver&logo=github
-[release-url]: https://github.com/canisminor1990/canisminor-template/releases
+[release-shield]: https://img.shields.io/github/v/release/canisminor1990/gltf-viewer?style=flat&sort=semver&logo=github
+[release-url]: https://github.com/canisminor1990/gltf-viewer/releases
 
 <!-- releaseDate -->
 
-[release-date-shield]: https://img.shields.io/github/release-date/canisminor1990/canisminor-template?style=flat
-[release-date-url]: https://github.com/canisminor1990/canisminor-template/releases
+[release-date-shield]: https://img.shields.io/github/release-date/canisminor1990/gltf-viewer?style=flat
+[release-date-url]: https://github.com/canisminor1990/gltf-viewer/releases
 
 <!-- ciTest -->
 
-[ci-test-shield]: https://github.com/canisminor1990/canisminor-template/workflows/Test%20CI/badge.svg
-[ci-test-url]: https://github.com/canisminor1990/canisminor-template/actions/workflows/test.yml
+[ci-test-shield]: https://github.com/canisminor1990/gltf-viewer/workflows/Test%20CI/badge.svg
+[ci-test-url]: https://github.com/canisminor1990/gltf-viewer/actions/workflows/test.yml
 
 <!-- ciRelease -->
 
-[ci-release-shield]: https://github.com/canisminor1990/canisminor-template/workflows/Build%20and%20Release/badge.svg
-[ci-release-url]: https://github.com/canisminor1990/canisminor-template/actions/workflows/release.yml
+[ci-release-shield]: https://github.com/canisminor1990/gltf-viewer/workflows/Build%20and%20Release/badge.svg
+[ci-release-url]: https://github.com/canisminor1990/gltf-viewer/actions/workflows/release.yml
 
 <!-- contributors -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/canisminor1990/canisminor-template.svg?style=flat
-[contributors-url]: https://github.com/canisminor1990/canisminor-template/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/canisminor1990/gltf-viewer.svg?style=flat
+[contributors-url]: https://github.com/canisminor1990/gltf-viewer/graphs/contributors
 
 <!-- forks -->
 
-[forks-shield]: https://img.shields.io/github/forks/canisminor1990/canisminor-template.svg?style=flat
-[forks-url]: https://github.com/canisminor1990/canisminor-template/network/members
+[forks-shield]: https://img.shields.io/github/forks/canisminor1990/gltf-viewer.svg?style=flat
+[forks-url]: https://github.com/canisminor1990/gltf-viewer/network/members
 
 <!-- stargazers -->
 
-[stargazers-shield]: https://img.shields.io/github/stars/canisminor1990/canisminor-template.svg?style=flat
-[stargazers-url]: https://github.com/canisminor1990/canisminor-template/stargazers
+[stargazers-shield]: https://img.shields.io/github/stars/canisminor1990/gltf-viewer.svg?style=flat
+[stargazers-url]: https://github.com/canisminor1990/gltf-viewer/stargazers
 
 <!-- issues -->
 
-[issues-shield]: https://img.shields.io/github/issues/canisminor1990/canisminor-template.svg?style=flat
-[issues-url]: https://img.shields.io/github/issues/canisminor1990/canisminor-template.svg?style=flat
+[issues-shield]: https://img.shields.io/github/issues/canisminor1990/gltf-viewer.svg?style=flat
+[issues-url]: https://img.shields.io/github/issues/canisminor1990/gltf-viewer.svg?style=flat

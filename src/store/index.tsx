@@ -9,7 +9,7 @@ export interface AppState {
 
 export const useAppStore = create<AppState>()(
   devtools((set) => ({
-    themeMode: 'auto',
+    themeMode: 'dark',
     onSetThemeMode: (themeMode) => {
       set(() => ({ themeMode }), false, 'onSetThemeMode')
     },

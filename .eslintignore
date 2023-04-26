@@ -7,3 +7,4 @@ jest*
 /lib
 /docs
 /dist
+.umirc.ts
