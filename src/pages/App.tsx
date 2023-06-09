@@ -1,5 +1,5 @@
 import { InboxOutlined } from '@ant-design/icons'
-import { Card, Divider, Radio, Space, Upload } from 'antd'
+import { Card, Divider, Input, Radio, Space, Upload } from 'antd'
 import Chroma from 'chroma-js'
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
@@ -65,6 +65,12 @@ const App: React.FC = () => {
 
   const defaultColor = colorList[option]
 
+  const handleInput = (e) => {
+    const dataArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    const newDate = dataArray.map((item) => e.target.value + '&time=' + item)
+    setGltf(newDate)
+  }
+
   return (
     <View>
       <Header>
@@ -89,18 +95,21 @@ const App: React.FC = () => {
           <Divider />
           <div>{JSON.stringify(defaultColor)}</div>
         </div>
-        <Dragger
-          style={{ width: '40vw' }}
-          maxCount={1}
-          name="file"
-          itemRender={() => null}
-          beforeUpload={handlePreview}
-        >
-          <p className="ant-upload-drag-icon">
-            <InboxOutlined />
-          </p>
-          <p className="ant-upload-text">Click or drag GLTF to this area to upload</p>
-        </Dragger>
+        <div>
+          <Input onPressEnter={handleInput} />
+          <Dragger
+            style={{ width: '40vw' }}
+            maxCount={1}
+            name="file"
+            itemRender={() => null}
+            beforeUpload={handlePreview}
+          >
+            <p className="ant-upload-drag-icon">
+              <InboxOutlined />
+            </p>
+            <p className="ant-upload-text">Click or drag GLTF to this area to upload</p>
+          </Dragger>
+        </div>
       </Header>
       <GltfView>
         {gltf.map((c, i) => (

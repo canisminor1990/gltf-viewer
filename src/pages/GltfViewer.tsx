@@ -23,14 +23,7 @@ const GltfViewer: React.FC<IGltfViewer> = ({ url, color }) => {
           <GltfModel url={url} color={color} />
         </Stage>
       </Suspense>
-      <OrbitControls
-        autoRotate={true}
-        enablePan={false}
-        enableRotate={false}
-        enableZoom={false}
-        enableDamping={false}
-        makeDefault
-      />
+      <OrbitControls autoRotate={true} enablePan={false} enableZoom={false} enableDamping={false} makeDefault />
     </Canvas>
   )
 }
